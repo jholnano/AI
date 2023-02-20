@@ -9,3 +9,5 @@ os.system('open -a "Google Chrome"')
 # instalar dependencias
 os.system("sh packeges.sh")
 
+# Atualizando pip
+os.system("pip install --upgrade pip")

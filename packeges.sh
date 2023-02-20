@@ -12,3 +12,4 @@ pip install pillow
 pip install gTTS
 pip install SpeechRecognition
 pip install playsound
+pip3 install PyObjC

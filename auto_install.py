@@ -4,7 +4,7 @@ import os
 # realizar verificação do sistema em que será utilizado o instalar manual
 
 # abrindo o buscador
-os.system('open -a "Google Chrome"')
+#os.system('open -a "Google Chrome"')
 
 # instalar dependencias
 os.system("sh packeges.sh")

@@ -12,7 +12,7 @@ from playsound import playsound
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 class App(customtkinter.CTk):
@@ -112,8 +112,7 @@ class App(customtkinter.CTk):
         self.textbox.insert('0.0', self.E)
 
         # Consult AI Recebendo Entry
-        completion = openai.Completion.create(engine="text-davinci-003", prompt=self.entry.get(), max_tokens=1024, n=1,
-                                              stop=None, temperature=0.5, )
+        completion = openai.Completion.create(engine="text-davinci-003", prompt=self.entry.get(), max_tokens=1024, n=1, stop=None, temperature=0.5, )
         response = completion.choices[0].text
 
         # Chamando Respostas # Essas regras é porque se não os botões texto e fala chamão as funções

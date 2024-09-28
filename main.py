@@ -12,7 +12,7 @@ from playsound import playsound
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
-openai.api_key = "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"
+openai.api_key = "sk-1234567890jXHw0mC2T3BlbkFJ0987654321A"
 
 
 class App(customtkinter.CTk):
